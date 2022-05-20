@@ -117,3 +117,22 @@ supporting background - #ff0004
   cursor: pointer;
   box-shadow: 0px 0px 50px white;
 }
+
+.icons2 {
+  animation: left-to-right 15s ease-in infinite;
+}
+
+@keyframes left-to-right {
+  0% {
+    transform: translateX(0);
+  }
+  33% {
+    transform: translateX(550%);
+  }
+  66% {
+    transform: translateX (100%);
+  }
+  100% {
+    transform: translateX (100%);
+  }
+}
