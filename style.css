@@ -27,13 +27,13 @@ supporting background - #ff0004
 }
 
 .bottom {
+  width: 100%;
   top: 35%;
   right: 240px;
   border-radius: 0px 0px 10px 10px;
   font-size: 18px;
   box-shadow: 0px 0px 50px white;
   background-color: #ff0004;
-  color: #aeff00;
 }
 
 .together {
@@ -41,6 +41,7 @@ supporting background - #ff0004
   background-color: #ff0004;
   font-size: 25px;
   padding: 10px;
+  color: #aeff00;
 }
 .together:hover {
   cursor: pointer;
