@@ -1,0 +1,116 @@
+/* colors 
+background - #ffa500
+text - #aeff00
+supporting background - #ff0004
+*/
+
+.realbg {
+  background-color: #ffa500;
+}
+.top {
+  background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_03hErIe9miwXgeAkDMamXFyyeio3BaB4hg&usqp=CAU")
+    no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  height: 30vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #aeff00;
+  border-radius: 10px 10px 0px 0px;
+}
+
+.bottom {
+  top: 35%;
+  right: 240px;
+  border-radius: 0px 0px 10px 10px;
+  font-size: 18px;
+  box-shadow: 0px 0px 50px white;
+  background-color: #ff0004;
+  color: #aeff00;
+}
+
+.together {
+  text-align: center;
+  background-color: #ff0004;
+  font-size: 25px;
+  padding: 10px;
+}
+.together:hover {
+  cursor: pointer;
+  background-color: #aeff00;
+  font-weight: 550;
+  color: #ff0004;
+  box-shadow: 0px 0px 50px white;
+}
+
+.homepagebtm {
+  background-color: #ff0004;
+  height: 39vh;
+  max-width: 25%;
+  margin: 20px;
+  left: 450px;
+  display: flex;
+  align-items: top;
+  justify-content: center;
+  border-radius: 10px;
+  box-shadow: 0px 0px 50px;
+}
+.homepagebtm:hover {
+  box-shadow: 0px 0px 50px white;
+}
+.homepagebtm2 {
+  background-color: #aeff00;
+  height: 38vh;
+  max-width: 25%;
+  margin: 20px;
+  bottom: 180px;
+  left: 450px;
+  display: flex;
+  align-items: top;
+  justify-content: center;
+  border-radius: 10px;
+  box-shadow: 0px 0px 50px;
+}
+.homepagebtm2:hover {
+  box-shadow: 0px 0px 50px white;
+}
+
+.brochuretxt {
+  cursor: pointer;
+  color: #aeff00;
+  text-align: center;
+}
+.brochureimg {
+  height: 50%;
+  position: relative;
+  top: 150px;
+  left: 50px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 50px;
+}
+.brochureimg:hover {
+  cursor: pointer;
+  box-shadow: 0px 0px 50px white;
+}
+
+.brochuretxt2 {
+  cursor: pointer;
+  color: #ff0004;
+  text-align: center;
+}
+
+.brochureimg2 {
+  width: 18%;
+  position: relative;
+  bottom: 40px;
+  left: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 50px;
+}
+
+.brochureimg2:hover {
+  cursor: pointer;
+  box-shadow: 0px 0px 50px white;
+}
