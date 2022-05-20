@@ -33,19 +33,18 @@ supporting background - #ff0004
   border-radius: 0px 0px 10px 10px;
   font-size: 18px;
   box-shadow: 0px 0px 50px white;
-  background-color: #ff0004;
 }
 
 .together {
   text-align: center;
-  background-color: #ff0004;
+  background-color: transparent;
   font-size: 25px;
   padding: 10px;
   color: #aeff00;
 }
 .together:hover {
   cursor: pointer;
-  background-color: #aeff00;
+
   font-weight: 550;
   color: #ff0004;
   box-shadow: 0px 0px 50px white;
@@ -82,11 +81,6 @@ supporting background - #ff0004
   box-shadow: 0px 0px 50px white;
 }
 
-.brochuretxt {
-  cursor: pointer;
-  color: #aeff00;
-  text-align: center;
-}
 .brochureimg {
   width: 95%;
   height: 40%;
@@ -104,6 +98,8 @@ supporting background - #ff0004
   cursor: pointer;
   color: #ff0004;
   text-align: center;
+  font-size: 24px;
+  font-weight: bold;
 }
 
 .brochureimg2 {
